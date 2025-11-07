@@ -3,6 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "description": "A simple React app using importmap for dependencies, designed for Vercel deployment.",
+  "scripts": {
+    "build": "echo 'Build step not required, files are served directly.'"
+  },
   "dependencies": {
     "@supabase/supabase-js": "2.x",
     "react": "19.x",
