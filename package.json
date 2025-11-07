@@ -4,11 +4,14 @@
   "version": "1.0.0",
   "description": "A simple React app using importmap for dependencies, designed for Vercel deployment.",
   "scripts": {
-    "build": "mkdir -p dist && cp index.html index.tsx App.tsx types.ts metadata.json package.json vercel.json dist/ && cp -r components services dist/"
+    "build": "mkdir -p dist && cp index.html vercel.json metadata.json dist/ && esbuild index.tsx --bundle --outfile=dist/bundle.js --jsx=automatic"
   },
   "dependencies": {
     "@supabase/supabase-js": "2.x",
     "react": "19.x",
     "react-dom": "19.x"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2"
   }
 }
