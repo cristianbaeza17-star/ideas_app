@@ -1,0 +1,5 @@
+{
+  "name": "Supabase Idea Vault",
+  "description": "An application for users to log in, save their ideas securely in a Supabase database, and consult them in the future. The app provides a complete authentication flow and a dashboard for managing ideas.",
+  "requestFramePermissions": []
+}
