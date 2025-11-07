@@ -10,8 +10,9 @@
     "@supabase/supabase-js": "2.x",
     "react": "19.x",
     "react-dom": "19.x"
+     "esbuild": "^0.20.2"
   },
   "devDependencies": {
-    "esbuild": "^0.20.2"
+   
   }
 }
